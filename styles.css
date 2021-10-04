@@ -1,0 +1,137 @@
+/**/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* first section of the landing page */
+.first{    
+    background-color:#1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 90px;
+    padding-bottom:100px;
+    border-radius: 1%;
+    width: 100%;   
+}
+
+.first_body{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 90px;
+    padding: 0 270px;
+}
+
+.first_body_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex:1;
+    margin-top: -27px;
+}
+
+.first header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header_links a, .first_body p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header_links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_links a, .header_links{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.first_body h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+
+.first_body button{
+    background-color:#3882f6;
+    color: white;
+    border-radius: 9%;
+    border: none;
+    padding: 6px 27px;
+    font-weight: bold;
+}
+
+.first_body img{
+    flex: 1;
+    height: 270px;
+    width: 200px;
+}
+
+
+/*Second section of the landing page*/
+.second{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    padding:30px;
+}
+
+.second_body{
+    padding: 0 270px;
+}
+
+.second_body h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.image_card_list{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 50px;
+}
+
+.card{
+    flex: 1 1 auto;
+    
+}
+
+.card img{
+    width: 100%;
+    border: solid #3882f6 9px;
+    border-radius: 9%;
+}
+
+.third{
+
+}
+
+.fourth{
+
+}
