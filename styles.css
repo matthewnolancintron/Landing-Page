@@ -23,7 +23,7 @@ body{
     justify-content: space-around;
     align-items: flex-start;
     gap: 90px;
-    padding: 0 270px;
+    padding: 0 180px;
 }
 
 .first_body_text{
@@ -95,11 +95,11 @@ body{
     align-items: center;
     gap: 100px;
     width: 100%;
-    padding:30px;
+    padding: 30px 0 120px 0;
 }
 
 .second_body{
-    padding: 0 270px;
+    padding: 0 180px;
 }
 
 .second_body h2{
@@ -114,7 +114,7 @@ body{
     display: flex;
     list-style: none;
     text-align: center;
-    gap: 50px;
+    gap: 70px;
 }
 
 .card{
@@ -128,10 +128,84 @@ body{
     border-radius: 9%;
 }
 
+/*third section of the landing page: finished*/
 .third{
+    background-color:#E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px 230px;
+    width: 100%;
+}
 
+.third blockquote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.third blockquote p {
+    text-align: left;
+    flex: 3;
+}
+
+.third blockquote cite{
+    font-weight: bold;
+    flex:1;
 }
 
 .fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    width: 100%;
+    padding: 100px;
+    
+}
 
+.fourth_container{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    padding: 9px 180px;
+    border-radius: 1%;
+}
+
+.fourth_body{
+    display: flex;
+    flex-direction: column;
+    padding: 27px 27px;
+}
+
+.fourth h3{
+    margin-bottom: 0;
+}
+
+.fourth p{
+    margin-top:0;
+}
+
+.fourth button{
+    background-color: transparent;
+    border: #F9FAF8 solid 3px;
+    font-weight: 700;
+    border-radius: 9%;
+    color: #F9FAF8;
+    padding: 7px 27px;
+}
+
+footer{
+    background-color: #1F2937;
+    width: 100%;
+    color: #F9FAF8;
+    padding: 70px;
+    text-align: center;
 }
